@@ -1,0 +1,15 @@
+[
+  {
+    "UserId": 1,
+    "Address1": "Dark Net",
+    "State": "Network",
+    "City": "Bangalore",
+    "ZipCode": "100",
+    "Country": "Tulava",
+    "AddressType": "Office",
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  }
+]

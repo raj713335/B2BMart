@@ -1,0 +1,81 @@
+<div class="mt-4" [formGroup]="checkoutForm">
+  <div class="d-flex justify-content-between align-items-center">
+    <h4>Shipping address</h4>
+    <button (click)="saveUserAddress()"
+            class="btn btn-outline-success mb-3"
+            [disabled]="!checkoutForm.get('addressForm').valid || !checkoutForm.get('addressForm').dirty">
+      Save as default address
+    </button>
+  </div>
+  <div class="row" formGroupName="addressForm">
+    <!--<div class="form-group col-6">
+    <app-text-input [label]="'User Id'" formControlName="userId"  value={{userId}} disabled></app-text-input>
+  </div>-->
+    <div class="form-group col-6">
+      <app-text-input [label]="'User Id'" formControlName="userId"></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input [label]="'Address'" formControlName="address1"></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input [label]="'State'" formControlName="state"></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input [label]="'City'" formControlName="city"></app-text-input>
+    </div>
+    <div class="form-group col-6">
+      <app-text-input [label]="'Zip Code'" formControlName="zipCode"></app-text-input>
+    </div>
+
+    <!--<div class="form-group col-6">
+    <app-text-input [label]="'Zip code'" formControlName="zipCode"></app-text-input>
+  </div>-->
+    <div class="form-group col-6">
+      <!--<app-text-input [label]="'Address Type'" formControlName="addressType"></app-text-input>-->
+      <select formControlName="addressType" class="form-select form-select-sm text-muted">
+        <option value="Office" selected>Office</option>
+        <option value="Home">Home</option>
+      </select>
+    </div>
+    <div class="form-group col-12">
+      <app-text-input [label]="'Country'" formControlName="country"></app-text-input>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5">
+  <button class="btn btn-outline-primary" routerLink="/basket">
+    <i class="fa fa-angle-left"></i> Back to basket
+  </button>
+  <button [disabled]="checkoutForm.get('addressForm').invalid" class="btn btn-primary" cdkStepperNext>
+    Go to delivery <i class="fa fa-angle-right"></i>
+  </button>
+</div>
+
+<!--<div class="mt-4" [formGroup]="checkoutForm">
+  <h4 class="mb-3">Choose your delivery method</h4>
+  <div class="row" formGroupName="deliveryForm">
+    <div class="col-6 form-group" *ngFor="let method of addressMethods">
+      <p>{{method.addressId}}</p>
+      <p>{{method.address1}}</p>
+      <p>{{method.state}}</p>
+      <p>{{method.city}}</p>
+      <p>{{method.zipCode}}</p>
+      <p>{{method.country}}</p>
+      <p>{{method.addressType}}</p>
+      <input type="radio"
+             id={{method.deliveryId}}
+             (click)="setShippingPrice(method)"
+             value={{method.deliveryId}}
+             formControlName="deliveryMethod"
+             class="custom-control-input">
+      <label for="{{method.deliveryId}}" class="custom-control-label">
+        <strong>{{method.shortName}} - {{method.price | currency}}</strong>
+        <br />
+        <span class="label-description">{{method.description}}</span>
+      </label>
+    </div>
+  </div>
+</div>-->

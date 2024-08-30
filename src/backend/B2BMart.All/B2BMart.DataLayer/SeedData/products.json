@@ -1,0 +1,78 @@
+[
+  {
+    "IsDeleted": false,
+    "ProductName": "Roadster Women Blue Jacket",
+    "ProductCode": "12279416",
+    "Description": "Women Blue Washed Cropped Denim Trucker Jacket",
+    "PictureUrl": "https://assets.ajio.com/medias/sys_master/root/h09/hcd/12085139111966/-1117Wx1400H-440794191-mediumblue-MODEL.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1,
+    "Price": 799,
+    "Sellerid": 1,
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "IsDeleted": false,
+    "ProductName": "Fastdry Active Training Jacket",
+    "ProductCode": "1227944216",
+    "Description": "Men Blue Washed Cropped Denim Trucker Jacket",
+    "PictureUrl": "https://assets.ajio.com/medias/sys_master/root/20210415/q0Oy/60786004f997dd7b64b32985/-1117Wx1400H-441120188-jetblack-MODEL2.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1,
+    "Price": 999,
+    "Sellerid": 1,
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "IsDeleted": false,
+    "ProductName": "THE TIE HUB",
+    "ProductCode": "462521415",
+    "Description": "Textured Wool Fedora Hat",
+    "PictureUrl": "https://assets.ajio.com/medias/sys_master/root/20210622/4yBX/60d1ac6aaeb269a9e304e66d/-1117Wx1400H-462521415-grey-MODEL4.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3,
+    "Price": 1999,
+    "Sellerid": 1,
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "IsDeleted": false,
+    "ProductName": "CARLTON LONDON",
+    "ProductCode": "473Wx593H-469048657",
+    "Description": "Ankle-Length Boots with Lace-Fastening",
+    "PictureUrl": "https://assets.ajio.com/medias/sys_master/root/20211125/PFVM/619e8ae4f997ddf8f119e4b4/-473Wx593H-469048657-black-MODEL4.jpg",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4,
+    "Price": 1999,
+    "Sellerid": 1,
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "IsDeleted": false,
+    "ProductName": "TR Essential Sports Gloves with Velcro Closures",
+    "ProductCode": "460478350",
+    "Description": "PUMA Awesome Gloves",
+    "PictureUrl": "https://assets.ajio.com/medias/sys_master/root/hb5/hf3/14231513661470/-473Wx593H-460478350-black-MODEL.jpg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 4,
+    "Price": 399,
+    "Sellerid": 1,
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  }
+
+]

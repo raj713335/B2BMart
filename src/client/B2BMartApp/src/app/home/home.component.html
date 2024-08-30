@@ -1,0 +1,53 @@
+<div class="position-relative">
+  <div>
+    <div class="heading">
+      <h6 class="mr-3">New ways to purchase products</h6>
+      <button class="btn btn-primary account" (click)="loginRedirect()">Shop Now</button>
+    </div>
+    <ngx-slick-carousel class="carousel social-media-slider" #slickModal="slick-carousel" [config]="slideConfig">
+      <div *ngFor="let banner of homeImages">
+        <div ngxSlickItem class="banners">
+          <img src="{{banner}}" />
+      </div>
+      </div>
+    </ngx-slick-carousel>
+  </div>
+  <div class="account-register mb-3">
+    <h6>Sign up to enjoy exciting benefits </h6>
+    <button class="btn btn-primary  account" (click)="loginRedirect()">LOGIN / SIGNUP</button>
+  </div>
+</div>
+<div class="recommendations">
+  <h6 class="headline">Just for you  </h6>
+  <div class="product-list ml-2">
+    <div class="products" *ngFor="let product of products">
+      <img [src]="product['pictureUrl']">
+      <p class="desc">{{product['description']}}</p>
+      <p>$ {{product['price']}}</p>
+    </div>
+  </div>
+</div>
+<div class="bottom-sec d-flex">
+  <div>
+    <h6>Customer services</h6>
+    <div class="features">
+      <!--<p> Help Center </p>-->
+      <p> <a (click)="customerServices('terms')">Terms of Service</a> </p>
+      <p> <a (click)="customerServices('privacy')">Privacy Policy</a> </p>
+    </div>
+  </div>
+  <div>
+    <h6>About us</h6>
+    <div class="features">
+      <p> Help Center </p>
+    </div>
+  </div>
+  <div>
+    <h6>Connect with Us</h6>
+    <div class="features">
+      <p> Facebook </p>
+      <p> Twitter </p>
+      <p> Instagram </p>
+    </div>
+  </div>
+</div>

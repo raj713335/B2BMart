@@ -1,0 +1,39 @@
+version: "3.9"
+services:
+
+  db:
+      container_name: sql-db
+      image: mcr.microsoft.com/mssql/server:2017-latest
+      ports:
+        - "1433:1433"
+      environment:
+        SA_PASSWORD: "Password@123"
+        ACCEPT_EULA: "Y"
+
+  b2b-ui:
+    build: ./src/client/B2BMartApp
+    container_name: b2b-mart-ui
+    ports:
+      - '4200:80'
+
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+      - HTTP_USER=root
+      - HTTP_PASSWORD=secret
+    ports:
+      - 8081:8081
+    depends_on:
+      - redis
+    
+volumes:
+  redis-data:

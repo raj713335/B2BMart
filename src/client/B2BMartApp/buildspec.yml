@@ -1,0 +1,28 @@
+version: 0.2
+env:
+  variables:
+    APP_NAME: "B2BMartApp"
+    CACHE_CONTROL: "86400"
+    S3_BUCKET: "b2b-mart-app"
+    BUILD_FOLDER: "dist"
+    BUILD_ENV: "prod"
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16.x
+    commands:
+      - echo installing npm dependancies
+      - npm install
+      - npm install -g @angular/cli
+  build:
+    commands:
+      - echo build process started `date`
+      - ng build
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+    files:
+        - '**/*'
+    base-directory: 'dist/B2BMartApp'
+    discard-paths: yes

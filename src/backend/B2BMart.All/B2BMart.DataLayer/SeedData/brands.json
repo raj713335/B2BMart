@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 1,
+    "ProductBrandName": "Roadster",
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "ID": 2,
+    "ProductBrandName": "Jockey",
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "ID": 3,
+    "ProductBrandName": "Nike",
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "ID": 4,
+    "ProductBrandName": "Puma",
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "ID": 5,
+    "ProductBrandName": "Zara",
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "ID": 6,
+    "ProductBrandName": "Woodland",
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  }
+]

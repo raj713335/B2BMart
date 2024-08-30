@@ -1,0 +1,32 @@
+[
+  {
+    "IsDeleted": false,
+    "EmailId": "system@gmail.com",
+    "FirstName": "system",
+    "LastName": "system",
+    "PasswordSalt": "hello123",
+    "PasswordHash": "hello123",
+    "PhoneNumber": "9547966499",
+    "UserType": "Admin",
+    "UserName": "system",
+    "CreatedBy": "system",
+    "UpdatedBy": "system",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  },
+  {
+    "IsDeleted": false,
+    "EmailId": "raj713335@gmail.com",
+    "FirstName": "Arnab",
+    "LastName": "Das",
+    "PasswordSalt": "hello123",
+    "PasswordHash": "hello123",
+    "PhoneNumber": "9547966499",
+    "UserType": "Consumer",
+    "UserName": "raj713335",
+    "CreatedBy": "raj713335",
+    "UpdatedBy": "raj713335",
+    "CreatedAt": "2017-09-08T19:01:55.714942+03:00",
+    "UpdatedAt": "2017-09-08T19:01:55.714942+03:00"
+  }
+]

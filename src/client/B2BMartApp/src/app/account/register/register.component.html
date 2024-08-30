@@ -1,0 +1,69 @@
+<div class="form-wrapper ml-xl-5 pl-xl-4 account-container">
+  <h3>Create Account</h3>
+  <form (submit)="onSubmit()" [formGroup]="registerForm" class="mt-4">
+    <div class="form-group">
+      <!--<label for="">User Name</label>
+      <input #name autocomplete="off" class="form-control" formControlName="userName" type="text"
+             trim="true" autofocus>-->
+      <app-text-input formControlName="userName" [label]="'User Name'"></app-text-input>
+      <!--<app-common-errors [control]="registerForm.controls['UserName']" [for]="'UserName'"></app-common-errors>-->
+    </div>
+    <div class="form-group">
+      <!--<label for="">Email Address</label>
+      <input autocomplete="off" class="form-control" formControlName="emailId" type="text" trim="true">-->
+      <app-text-input formControlName="emailId" [label]="'Email Address'"></app-text-input>
+      <!--<app-common-errors [control]="registerForm.controls['emailId']" [for]="'emailId'"></app-common-errors>-->
+    </div>
+    <div class="form-group">
+      <!--<label for="">First Name</label>
+      <input autocomplete="off" class="form-control" formControlName="firstName" type="text" trim="true">-->
+      <app-text-input formControlName="firstName" [label]="'First Name'"></app-text-input>
+      <!--<app-common-errors [control]="registerForm.controls['firstName']" [for]="'firstName'"></app-common-errors>-->
+    </div>
+    <div class="form-group">
+      <!--<label for="">Last Name</label>
+      <input autocomplete="off" class="form-control" formControlName="lastName" type="text" trim="true">-->
+      <app-text-input formControlName="lastName" [label]="'Last Name'"></app-text-input>
+      <!--<app-common-errors [control]="registerForm.controls['lastName']" [for]="'lastName'"></app-common-errors>-->
+    </div>
+    <div class="form-group">
+      <!--<label for="">Phone Number</label>
+      <input autocomplete="off" class="form-control" maxlength="14" minlength="8"
+             type="text" formControlName="phoneNumber" type="text" trim="true">-->
+      <app-text-input formControlName="phoneNumber" maxlength="14" minlength="8" [label]="'Phone Number'"></app-text-input>
+      <!--<app-common-errors [control]="registerForm.controls['phoneNumber']" [for]="'phoneNumber'"></app-common-errors>-->
+    </div>
+    <div class="form-group">
+      <!--<label for="">Password</label>
+      <input type="{{showPassword ? 'text' : 'password'}}" class="form-control field-password" placeholder="At least 8 characters"
+             formControlName="password" id="password" maxlength="20" autocomplete="new-password">-->
+      <app-text-input type="{{showPassword ? 'text' : 'password'}}" formControlName="password" [label]="'Password'"></app-text-input>
+      <span class="show-pass" (click)="toggle()">{{showPassword ? 'Hide' : 'Show'}}</span>
+      <!--<span class="show-pass" (click)="toggle()">
+    <mat-icon *ngIf="!showPassword">remove_red_eye</mat-icon>
+  </span>
+  <i class="prac icon-open-eye login-icons"
+  [ngClass]="{'icon-open-eye': showPassword, 'icon-close-eye': !showPassword}" (click)="toggle()"></i>-->
+      <!--<app-common-errors [control]="registerForm.controls['password']" [for]="'password'"></app-common-errors>-->
+      <!--<p class="text-muted pwd-hint m-0">
+      Password must be at least 8 characters long.
+  </p>-->
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100" [disabled]="submitted">Create Account</button>
+    <div class="divider-inner">
+      <p class="my-4 pt-3 text-center">Already have an account? <a class="text-link" routerLink="/account/login">Sign In </a></p>
+    </div>
+  </form>
+</div>
+<div class="bottom-text ml-xl-5 pl-xl-4 mt-2">
+  <div class="copyright">&copy; Copyright B2BMart </div>
+  <ul class="footer-list">
+      <li>
+          <a routerLink="/public/terms">Terms of Service</a>
+      </li>
+      <li>
+          <a routerLink="/public/privacy">Privacy Policy</a>
+      </li>
+  </ul>
+</div>

@@ -1,0 +1,23 @@
+<div class="form-wrapper ml-xl-5 pl-xl-4 account-container">
+  <h3>Sign-In</h3>
+  <form [formGroup]="loginForm" (submit)="login()" class="mt-4">
+    <div class="form-group">
+      <!--<label for="">User Name</label>-->
+      <!--<input class="form-control" formControlName="username" placeholder="" />-->
+      <app-text-input formControlName="username" [label]="'User Name'"></app-text-input>
+      <!--<app-common-errors [control]="loginForm.controls['username']" [for]="'username'"></app-common-errors>-->
+    </div>
+    <div class="form-group">
+      <!--<label for="">Password</label>-->
+      <app-text-input type="{{showPassword ? 'text' : 'password'}}" formControlName="password" [label]="'Password'"></app-text-input>
+      <!--<input type="{{showPassword ? 'text' : 'password'}}" class="form-control field-password" formControlName="password" placeholder="" />-->
+      <span (click)="toggle()" class="show-pass">{{showPassword ? 'Hide   ' : 'Show'}}</span>
+      <!--<app-common-errors [control]="loginForm.controls['password']" [for]="'password'"></app-common-errors>-->
+    </div>
+      
+      <button type="submit" class="btn btn-primary w-100" [disabled]="submitted">Login</button>
+      <div class="divider-inner">
+        <p class="my-4 pt-3 text-center">New to B2BMart? <a class="text-link" routerLink="/account/register">Register </a></p>
+      </div>
+  </form>
+</div>

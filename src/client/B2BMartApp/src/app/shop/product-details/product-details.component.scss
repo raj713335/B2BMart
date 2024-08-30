@@ -1,0 +1,46 @@
+@import "../../../app/styles/variables.scss";
+
+.product-picture {
+  position: relative;
+  img {
+    height: 350px;
+    width: 350px;
+  }
+}
+.product-details {
+  .description {
+    font-weight: 500;
+  }
+  .price {
+    color: var(--color-primary-dark);
+    font-weight: 700;
+  }
+}
+.product-samples {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  border: 1px solid #e2dede;
+  cursor: pointer;
+}
+.selected-card {
+  border-color: #414dbe;
+  box-shadow: 0 0 3px 2px rgb(75 95 224 / 50%);
+}
+.wishlist {
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  z-index: 1;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  text-align: center;
+  mat-icon {
+    vertical-align: middle;
+    font-size: 20px;
+    padding-top: 2px;
+  }
+  .wishlisted {
+    color: #ea3252;
+  }
+}

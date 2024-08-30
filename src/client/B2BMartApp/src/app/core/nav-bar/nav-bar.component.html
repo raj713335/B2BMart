@@ -1,0 +1,82 @@
+<header class="header">
+  <div class="container-fluid">
+    <div class="header-inner">
+      <div class="header-left">
+        <div class="logo">
+          <img alt="B2BMart" class="img-fluid" src="../assets/images/logo.jpeg" [routerLink]="['/']">
+        </div>
+      </div>
+      <div class="header-right">
+        <form class="form-search" [formGroup]="searchForm">
+          <div class="input-group align-items-center search-wrapper">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <img alt="Search" src="../assets/images/svg/search.svg">
+              </span>
+            </div>
+            <div class="form-group mb-0">
+              <input formControlName="globalSearchText" aria-describedby="search"
+                     aria-label="Search" class="search-field w-100" placeholder="Search products, brands.."
+                     type="text" />
+            </div>
+          </div>
+        </form> <div class="header-actions">
+          <ul>
+            <li>
+              <div class="action-notication" [matMenuTriggerFor]="menu" #profileMenu="matMenuTrigger"
+                   (mouseenter)="profileMenu.openMenu();">
+                <mat-icon>account_circle</mat-icon>
+              </div>
+            </li>
+            <li>
+              <div class="action-notication">
+                <mat-icon class="icon">notifications_none</mat-icon>
+                <!-- <span (click)="_common.showBellBlink.next(false)" *ngIf="_common.showBellBlink | async" class="bell-red-tick"></span> -->
+              </div>
+            </li>
+            <!--<li>
+              <mat-icon>favorite_border</mat-icon>
+            </li>-->
+            <li>
+              <div class="action-notication">
+                <a routerLink="/basket" class="position-relative">
+                  <div *ngIf="(basket$ | async) as basket" class="cart-no">{{basket.items.length}}</div>
+                  <mat-icon>add_shopping_cart</mat-icon>
+                  <div class="cart-no"></div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<mat-menu #menu="matMenu" class="profile">
+  <ng-container *ngIf="this.userName === null">
+    <p>To access account and manage orders</p>
+    <button class="btn btn-primary w-100 account" (click)="loginRedirect()">LOGIN / SIGNUP</button>
+  </ng-container>
+  <ng-container *ngIf="this.userName != null">
+    <strong>Welcome {{userName}}</strong>
+    <button class="btn btn-primary w-100 account" (click)="logout()">LOGOUT</button>
+    <hr>
+    <a routerLink="/basket">
+      <div class="profile-info">Basket</div>
+    </a>
+    <a href="javascript:void(0);">
+      <div class="profile-info">Orders</div>
+    </a>
+    <a href="javascript:void(0);">
+      <div class="profile-info">Wishlist</div>
+    </a>
+    <a href="javascript:void(0);">
+      <div class="profile-info">Contact Us</div>
+    </a>
+    <a href="javascript:void(0);">
+      <div class="profile-info">Recommendations</div>
+    </a>
+  </ng-container>
+    
+</mat-menu>

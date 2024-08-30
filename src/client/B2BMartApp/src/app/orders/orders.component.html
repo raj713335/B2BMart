@@ -1,0 +1,45 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <table class="table table-hover" style="cursor: pointer;">
+        <thead class="thead-light">
+          <tr>
+            <th>OrderId</th>
+            <th>IsDeleted</th>
+            <th>Amount</th>
+            <th>IsCancelled</th>
+            <th>IsPaid</th>
+            <th>UserId</th>
+            <th>DeliveryId</th>
+            <th>AddressId</th>
+            <th>Status</th>
+            <th>CreatedBy</th>
+            <th>UpdatedBy</th>
+            <th>BasketId</th>
+            <th>DeliveryId</th>
+            <th>createdAt</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let order of orders" routerLink="/orders/{{order.orderId}}">
+            <th># {{order.orderId}}</th>
+            <td> {{order.isDeleted}}</td>
+            <td> {{order.amount | currency}}</td>
+            <td> {{order.isCancelled}}</td>
+            <td> {{order.isPaid}}</td>
+            <td> {{order.userId}}</td>
+            <td> {{order.deliveryId}}</td>
+            <td> {{order.addressId}}</td>
+            <td> {{order.status}}</td>
+            <td> {{order.createdBy}}</td>
+            <td> {{order.updatedBy}}</td>
+            <td> {{order.basketId}}</td>
+            <td> {{order.deliveryMethodId}}</td>
+            <td>{{order.createdAt}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
