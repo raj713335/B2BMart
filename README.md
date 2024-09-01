@@ -29,6 +29,10 @@ For video demostration refer to the YouTube link <a href="">here.</a>
 <h3>Project Architecture</h3>
 
 <p align="center">
+  <img src="docs/B2B.png" />
+</p>
+
+<p align="center">
   <img src="docs/B2BMart.png" />
 </p>
 
