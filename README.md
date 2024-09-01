@@ -1,8 +1,12 @@
 <h1 align="center">B2BMart</h1>
 
+<h3> We are creating an ECommerce Application, to mimic a real-world scenario, then we will collect the data from the platform based on user order, demand, and search history, and based on the data we will create an AI/ML Model to predict the demand and forecast the logistics requirements based on the historical data from the Application.</h3>
+
 <h3>Problem Statement</h3>
 
 <strong>Demand Forecasting</strong><p>Develop a model to identify and analyze factors influencing demand in the logistics industry. Participants should propose methods to predict fluctuations in demand accurately.</p>
+
+
 
 <p align="center">
   <img src="docs/B2B.png" />
