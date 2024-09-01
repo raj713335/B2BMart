@@ -239,6 +239,26 @@ stripe listen -f https://localhost:64728/api/Payments/webhook
 stripe listen -f https://localhost:64728/api/Payments/webhook -e payment_intent.succeeded,payment_intent.failed
 ```
 
+<h3> Real-time monitoring </h3>
+
+- Kong API Gateway
+- Zipkin 
+- Prometheus
+- Grafana
+- Logstash
+- Elasticsearch
+- Kibana
+
+<p align="center">
+  <img src="docs/API_Management/1.png" width="400" />
+  <img src="docs/API_Management/2.png" width="400" />
+  <img src="docs/API_Management/3.png" width="400" />
+  <img src="docs/API_Management/4.png" width="400" />
+  <img src="docs/API_Management/5.png" width="400" />
+  <img src="docs/API_Management/6.png" width="400" />
+
+</p> 
+
 ## Running the Angular Client 
 
 ```
