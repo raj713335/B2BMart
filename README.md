@@ -30,7 +30,7 @@
 
 <p>To develop a demand forecasting model for the logistics industry, we need to identify the key factors influencing demand and choose appropriate methods for accurately predicting demand fluctuations. Here's a structured approach to help with this task:</p>
     
-    </li> 1. Identify Factors Influencing Demand.<li> 
+    <li> 1. Identify Factors Influencing Demand.</li> 
     <ul>
       <li> <strong>Seasonality:</strong> Fluctuations due to seasons, holidays, or specific events (e.g., Black Friday, Christmas).</li>
       <li> <strong>Economic Indicators:</strong> GDP growth, consumer spending, inflation rates, and employment rates.</li>
@@ -41,7 +41,7 @@
       <li> <strong>Technological Advancements:</strong> Adoption of automation, AI, and new technologies affecting logistics processes.</li>
       <li> <strong>Geopolitical Events:</strong> Political instability, trade wars, and global pandemics.</li>    
     </ul>
-    </li> 2. Data Collection.<li> 
+    <li> 2. Data Collection.</li> 
     <ul>
       <li> <strong>Historical Sales and Demand Data:</strong> Time-series data of past demand, categorized by product type, region, and season.</li>
       <li> <strong>Macroeconomic Data:</strong> Information on economic indicators like GDP, CPI, unemployment rates, etc.</li>
