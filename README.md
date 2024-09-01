@@ -28,6 +28,17 @@
 
 <h2>Step 2</h2>
 
+<li>To develop a demand forecasting model for the logistics industry, we need to identify the key factors influencing demand and choose appropriate methods for accurately predicting demand fluctuations. Here's a structured approach to help with this task:</li>
+    </li><li> User authentication and authorization.
+    </li><li> Users will be able to search and sort the product based on the keyword.
+    </li><li> Customers will have the option to review or add products to the cart or buy directly.
+    </li><li> Users will receive notifications by email and SMS for every activity they do (place an order, cancel an order, etc). 
+    </li><li> Users can search through the placed order (order history).
+    </li><li> There will be a service that will generate an invoice and share it via Email. Users will have an option too to download it.
+
+
+<li>Create a B2B E-commerce site similar to Alibaba or Amazon, with the following features:</li>
+
 <h3>Application Demo</h3>
 
 For video demostration refer to the YouTube link <a href="">here.</a> 
