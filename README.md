@@ -28,16 +28,30 @@
 
 <h2>Step 2</h2>
 
-<li>To develop a demand forecasting model for the logistics industry, we need to identify the key factors influencing demand and choose appropriate methods for accurately predicting demand fluctuations. Here's a structured approach to help with this task:</li>
-    </li><li> User authentication and authorization.
-    </li><li> Users will be able to search and sort the product based on the keyword.
-    </li><li> Customers will have the option to review or add products to the cart or buy directly.
-    </li><li> Users will receive notifications by email and SMS for every activity they do (place an order, cancel an order, etc). 
-    </li><li> Users can search through the placed order (order history).
-    </li><li> There will be a service that will generate an invoice and share it via Email. Users will have an option too to download it.
+<p>To develop a demand forecasting model for the logistics industry, we need to identify the key factors influencing demand and choose appropriate methods for accurately predicting demand fluctuations. Here's a structured approach to help with this task:</p>
+    
+    </li> 1. Identify Factors Influencing Demand.<li> 
+    <ul>
+      <li> <strong>Seasonality:</strong> Fluctuations due to seasons, holidays, or specific events (e.g., Black Friday, Christmas).</li>
+      <li> <strong>Economic Indicators:</strong> GDP growth, consumer spending, inflation rates, and employment rates.</li>
+      <li> <strong>Market Trends:</strong> Changes in consumer behavior, e-commerce growth, and supply chain disruptions.</li>
+      <li> <strong>Weather Conditions:</strong> Impact of extreme weather events on transportation and delivery schedules.</li>
+      <li> <strong>Competitor Activities:</strong> Pricing strategies, promotions, and service changes by competitors.</li>
+      <li> <strong>Regulatory Changes:</strong> New tariffs, trade agreements, or regulations affecting logistics.</li>
+      <li> <strong>Technological Advancements:</strong> Adoption of automation, AI, and new technologies affecting logistics processes.</li>
+      <li> <strong>Geopolitical Events:</strong> Political instability, trade wars, and global pandemics.</li>    
+    </ul>
+    </li> 2. Data Collection.<li> 
+    <ul>
+      <li> <strong>Historical Sales and Demand Data:</strong> Time-series data of past demand, categorized by product type, region, and season.</li>
+      <li> <strong>Macroeconomic Data:</strong> Information on economic indicators like GDP, CPI, unemployment rates, etc.</li>
+      <li> <strong>Weather Data:</strong> Historical weather patterns and forecasts.</li>
+      <li> <strong>Competitor Data:</strong> Market research data on competitor actions.</li>
+      <li> <strong>Regulatory Data:</strong> Updates on new regulations or tariffs.</li>
+      <li> <strong>Geopolitical News:</strong> Data on international events affecting logistics.</li>
+    </ul>
 
 
-<li>Create a B2B E-commerce site similar to Alibaba or Amazon, with the following features:</li>
 
 <h3>Application Demo</h3>
 
