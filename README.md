@@ -133,6 +133,12 @@ For video demostration refer to the YouTube link <a href="">here.</a>
   <img src="docs/B2B_DataBase.png" width="900" height="650" />
 </p>
 
+<h3>Demand Forcasting Architecture</h3>
+
+<p align="center">
+  <img src="docs/Excel.png" width="900" height="650" />
+</p>
+
 
 
 
@@ -155,6 +161,24 @@ For video demostration refer to the YouTube link <a href="">here.</a>
   <img src="docs/12.png" width="400"/>
   <img src="docs/13.png" width="400"/>
   <img src="docs/14.png" width="400"/>
+</p>
+
+<h3>Demand Forcasting Analysis Screenshots</h3>
+
+<br />
+<p align="center">
+  <img src="docs/Logistics/1.png" width="400"/>
+  <img src="docs/Logistics/2.png" width="400"/>
+  <img src="docs/Logistics/3.png" width="400"/>
+  <img src="docs/Logistics/4.png" width="400"/>
+  <img src="docs/Logistics/5.png" width="400"/>
+  <img src="docs/Logistics/6.png" width="400"/>
+  <img src="docs/Logistics/7.png" width="400"/>
+  <img src="docs/Logistics/8.png" width="400"/>
+  <img src="docs/Logistics/9.png" width="400"/>
+  <img src="docs/Logistics/11.png" width="400"/>
+  <img src="docs/Logistics/10.png" width="400"/>
+  <img src="docs/Logistics/12.png" width="400"/>
 </p>
 
 
