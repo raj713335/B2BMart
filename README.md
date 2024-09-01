@@ -24,7 +24,26 @@
 
 <h3>Application Demo</h3>
 
-For video demostration refer to the YouTube link <a href="https://www.youtube.com/watch?v=fdvc4lTZ4IU">here.</a> 
+For video demostration refer to the YouTube link <a href="">here.</a> 
+
+<h3>Project Architecture</h3>
+
+<p align="center">
+  <img src="docs/B2BMart.png" />
+</p>
+
+<p align="center">
+  <img src="docs/B2B_Architecture.png" width="900" height="650" />
+</p>
+
+
+<h3>DataBase Architecture</h3>
+
+<p align="center">
+  <img src="docs/B2B_DataBase.png" width="900" height="650" />
+</p>
+
+
 
 
 
@@ -49,18 +68,7 @@ For video demostration refer to the YouTube link <a href="https://www.youtube.co
 </p>
 
 
-<h3>Project Architecture</h3>
 
-<p align="center">
-  <img src="docs/B2B_Architecture.png" width="900" height="650" />
-</p>
-
-
-<h3>DataBase Architecture</h3>
-
-<p align="center">
-  <img src="docs/B2B_DataBase.png" width="900" height="650" />
-</p>
 
 
 ### Clone/Download the Repository
